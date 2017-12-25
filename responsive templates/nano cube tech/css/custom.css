@@ -1,0 +1,94 @@
+
+
+.navbar .navbar-right{
+	padding-right:20px;
+	padding-top:20px;
+}
+.padding0{
+	padding-right:0px;
+	padding-left:0px;
+	margin-right:0px;
+	margin-left:0px;
+	
+}
+
+
+.header h2{text-align:center}
+
+.section1 h2{text-align:center;}
+.section1 p{text-align:center;font-family:merriweather;line-height:25px;color:#333333;}
+
+
+.section2 {text-align:center;}
+.section3 {text-align:center;}
+.section4 {text-align:center;}
+.section5 {text-align:center;}
+
+.section2 p{text-align:justify;}
+.section3 p{text-align:justify;}
+.section4 p{text-align:justify;}
+.section5 p{text-align:justify;}
+
+.carousel-inner img{width:100%}
+
+.button {background-color:#333;color:white;padding:10px}
+.button:hover{color:red;background-color:blue}
+
+.section22{background-color:#4A4542;width:100%;height:360px; color:#FFFFF9}
+
+/* .section33{background-color:} */
+
+
+/* .section33 #div1 */
+.container #div1
+{
+
+    width:100px;
+    height: 60px;
+    background-color: red;
+    font-weight: bold;
+    position:relative;
+    -webkit-animation: mymove 30s infinite; /* Safari 4.0 - 8.0 */
+    animation: mymove 30s infinite;
+    display:inline;
+    margin:15px;
+}
+.container #div1 ul li {float:left;list-style:none;}
+
+/* Safari 4.0 - 8.0 */
+#div1 {-webkit-animation-timing-function: linear;}
+
+
+/* Standard syntax */
+#div1 {animation-timing-function: linear;}
+
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove
+ {
+    from {left:0px;}
+    to {left:800px;}
+}
+
+/* Standard syntax */
+@keyframes mymove 
+{
+    from {left:0px;}
+    to {left:800px;}
+}
+
+
+
+.section44{background-color:#01285F;width:100%;height:180px;}
+.section44 h4{color:#C3DE2C;margin-left:40px;font-weight:normal;}
+.section44 ul{}
+.section44 ul li{list-style:none;}
+.section44 ul li a{text-decoration:none;color:#ffffff;}
+.section44 ul li a:hover{text-decoration:none;color:#C3DE2C;}
+
+.container-fluid {background-color:#01285F;}
+
+.section55{color:#ffffff;background-color:#000000;width:100%;height:40px;}
+.section55 p{margin:10px;}
+.container-fluid .section55{background-color:#000000;}
+
