@@ -1,0 +1,55 @@
+.content p{font-family:arial;font-size:25px;padding-left:15px}
+.content p span{padding:5px;border:1px solid #585858;margin-left:20px}
+.banner{background:url(../images/hand.jpg);height:450px;width:100%;background-size:cover}
+.banner h3{font-family:arial;color:#fff;padding-left:50px;padding-top:120px;font-size:20px}
+.banner h2{font-family:arial;color:#fff;font-size:45px;padding-left:50px}
+.banner button:hover{background-color:#fff;color:#124191;} 
+.banner button{padding:12px 45px;font-size:20px;background-color:#124191;color:#fff;margin-left:50px}
+.ban1{background-image:url(../images/nok1.jpg);background-size:cover;height:400px;padding-left:5px;margin-right:20px}
+.ban2{background-image:url(../images/header_networks_1.jpg);background-size:cover;height:400px;padding-left:5px}
+.col-md-8{padding:0px;}
+.col-md-4{padding:0px;}
+.ban1 h3{font-family:arial;color:#fff;padding-left:50px;padding-top:120px;font-size:20px}
+.ban1 h1{font-family:arial;color:#fff;padding-left:45px;padding-left:50px}
+.ban1 button:hover{background-color:#fff;color:#124191;} 
+.ban1 button{padding:12px 45px;font-size:20px;background-color:#124191;color:#fff;margin-left:50px}
+.ban2 h3{font-family:arial;color:#fff;padding-left:50px;padding-top:120px;font-size:20px}
+.ban2 p{font-family:arial;color:#eee;padding-left:45px;padding-left:50px;font-size:25px;padding-top:20px}
+.ban2 button:hover{background-color:#fff;color:#124191;}
+.ban2 button{padding:12px 30px;font-size:20px;background-color:#124191;color:#fff;margin-left:50px} 
+button{border:0px}
+.photo-one{background-image:url(../images/alovera.jpg);background-size:cover;height:300px;margin-right:20px;}
+.photo-one p{font-family:arial;color:#fff;padding-top:170px;padding-left:20px;font-size:25px}
+.photo-one span{border:1px solid #fff ;padding:10px;color:#fff;margin-left:20px}
+.photo-two{background-image:url(../images/mob.jpg);background-size:cover;height:300px;margin-right:20px}
+.photo-two p{font-family:arial;color:#fff;padding-top:170px;padding-left:20px;font-size:25px}
+.photo-two span{border:1px solid #fff ;padding:10px;color:#fff;margin-left:20px}
+.photo-three{background-image:url(../images/cam.jpg);background-size:cover;height:300px;}
+.photo-three p{font-family:arial;color:#fff;padding-top:133px;padding-left:20px;font-size:25px}
+.photo-three span{border:1px solid #fff ;padding:10px;color:#fff;margin-left:20px}
+.three-photos{margin-top:25px}
+.cont1{background-image:url(../images/fly.jpg);background-size:cover;height:310px;margin-top:20px;margin-right:20px}
+.cont1 p{font-family:arial;color:#fff;padding-top:160px;padding-left:20px;font-size:35px}
+.cont1 span{border:1px solid #fff ;padding:10px;color:#fff;margin-left:20px}
+.cont2{background-color:#eee;height:310px;margin-top:20px}
+.cont2 p{font-family:arial;color:#124191;padding-left:20px;font-size:60px;font-weight:normal}
+.cont2 span{border:1px solid #00f ;padding:10px;color:#00f;margin-left:650px}
+.one{border:1px solid #E2E0E2;margin-top:20px;margin-right:20px}
+.one h3{color:#585858;padding-left:20px}
+.const1 p{color:#124191;font-size:20px;;padding-left:20px;padding-top:20px}
+.const1 h6{padding-left:20px;padding-top:5px}
+.const1 span{padding-left:250px;color:#273142}
+.const span i{padding-left:5px;color:#124191}
+.const1{background-color:#eee;height:250px}
+.footer{background-color:#eee;height:900px;margin-top:20px}
+
+
+
+@media only screen and (max-width:768px){
+	.ban1{background-image:url(../images/nok1.jpg);background-size:cover;height:400px;margin-right:0px}
+	.photo-one{margin-right:0px}
+	.photo-three{margin-right:0px;margin-top:20px}
+	.photo-two{margin-top:20px}
+}
+
+
