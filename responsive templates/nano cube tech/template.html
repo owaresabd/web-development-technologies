@@ -1,0 +1,348 @@
+<!DOCtype html>
+<html>
+   <head>
+	   <title>Bootstrap WEBSITE2</title>
+	
+	
+	   <meta name="viewport" content="width=device-width,initial-scale=1.0">
+	   <!-- <link href="css/bootstrap.css" rel="stylesheet" type="text/css"> -->
+
+	   <link href="css/custom.css"  rel="stylesheet" type="text/css">
+	   <!-- <script src="js/bootstrap"></script> -->
+	   <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+	
+	   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+   </head>
+    <body>
+      <!-- <header> -->
+	
+	
+	       <nav class="navbar">
+               <div class="container-fluid">
+			        <div class="container">
+                       <div class="navbar-header">
+                          <a class="navbar-brand" href="#"><img src="images\nano-tech.jpg" alt="logo"></a>
+                       </div>
+    
+                       <ul class="nav navbar-nav navbar-right">
+                          <li><a href="#">HOME</a></li>
+                          <li><a href="#">ABOUT US</a></li>
+						    <li class="dropdown">
+	                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">SOLUTIONS <span class="caret"></span></a>
+		                        <ul class="dropdown-menu">
+		                            <li>ERP Solutions</li>
+		                            <li>Enterprise Applications</li>
+		                            <li>Big-Data Applications</li>
+		                            <li>Digital Dashboards & BI</li>
+									<li>Tableau</li>
+		                        </ul>
+		                    </li>
+	  	                    <li class="dropdown">
+	                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">SERVICES <span class="caret"></span></a>
+		                        <ul class="dropdown-menu">
+		                            <li>IT Consulting</li>
+		                            <li>Staffing & Augmentation</li>
+		                            <li>Corporate Training</li>
+		                        </ul>
+		                    </li>
+							<li class="dropdown">
+	                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">CAREERS <span class="caret"></span></a>
+		                        <ul class="dropdown-menu">
+		                            <li>Current Openings</li>
+		                     
+		                        </ul>
+		                    </li>
+	                    
+	                    <li><a href="#">CONTACT US</a></li>
+                      </ul>
+					  
+					  <ul class="nav navbar-nav navbar-right">
+                            <li><span class="fa fa-user"></span>
+		                        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#mymodal">Sign Up</button></li>
+                            <div class="modal fade" id="mymodal" role="dialog">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+				                        <div class="modal-header">
+				                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+				                                <h4 class="modal-title">Modal Header</h4>
+				                        </div>
+				                        <div class="modal-body">
+				                            <form>
+					                             <label for="name">First Name:</label>
+				                                 <div class="input-group">
+							                        <span class="input-group-addon"><i class="fa fa-user"></i></span>
+							                        <input type="text" class="form-control" id="name">
+						                         </div>
+				                                 <label for="email">Email Address:</label>
+						                         <div class="input-group">
+						                            <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+							                        <input type="email" class="form-control" id="email" placeholder="enter email">
+						                         </div>
+						                         <label for="password">Password:</label>
+						                         <div class="input-group">
+						                            <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+						                            <input type="pwd" class="form-control" id="pwd">
+						                         </div>
+						                         <div class="input-group">
+							                        <div class="checkbox">
+							                            <label><input type="checkbox" name="remember"> Remember me</label>
+							                        </div>
+						                         </div>
+							                     <button type="submit" class="btn btn-default">Submit</button>
+				                            </form>
+				                        </div>
+						                <div class="modal-footer">
+                                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div> 
+                                </div>	
+                            </div>		
+                       </ul> 
+					</div>  
+               </div>
+           </nav>
+	
+	<!-- <div class="container-fluid "> -->
+	<!-- <div class="container "> -->
+	<!-- <div class="col-md-12 col-xs-12 "> -->
+		    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+					<li data-target="#myCarousel" data-slide-to="3"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="images\banner1.jpg" alt="banner1">
+                    </div>
+
+                    <div class="item">
+                        <img src="images\banner2.jpg" alt="banner2">
+                    </div>
+
+                    <div class="item">
+                        <img src="images\banner3.jpg" alt="banner3">
+                    </div>
+					
+					<div class="item">
+                        <img src="images\banner4.jpg" alt="banner4">
+                    </div>
+                </div>
+
+                <!-- Left and right controls --> 
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                </a>
+            </div>
+	<!-- </div> -->
+	<!-- <!-- </div> --> 
+	<!-- <!-- </div> --> 
+	
+	        <div class="container">
+	            <div class="col-12 col-md-12 col-xs-12">
+	                <div class="section1">
+	                    <h2>About Nano Cube Technologies</h2>
+	                    <p>Nano Cube Technologies Provides Enterprise Solutions with prime focus on ERP, Big-Data, Dashboard & Analytics, E-Commerce, Staff Augmentation and related technologies. We have built the company with an emphasis on efficient processes and ASAP driven project implementation methodology, that enables us to deliver high quality projects and resources to our clients. Our strong customer Partnerships are based on through understanding of our customer’s requirements. Our timely and reliable assistance along with strong collaboration has allowed us to grow and serve customers both in mid-market and enterprise space.
+	                    </p>
+	                </div>
+	            </div>
+	        </div>
+	
+	
+	        <div class="container">
+	            <div class="row">
+	                <div class="header">
+	                    <h2>SOLUTIONS</h2>
+	                </div>
+	
+	                <div class="col-md-3 col-xs-12 section2 bg-warning">
+	
+	                    <img src="images\erp1.png">
+	                    <h4>ERP SOLUTIONS</h4>
+	                    <P>We are an ERP Software Solutions provider to companies of all sizes and domains. We provide ERP Solutions worldwide. We are engaged in providing Pre implementation</P>
+	                    <button class="button">Read more</button>
+	                </div>
+	
+	
+	                <div class="col-md-3  col-xs-12 section3 bg-success">
+	
+	                    <img src="images\enterprise.png">
+	                    <h4>Enterprise Applications</h4>
+	                    <P>We are an ERP Software Solutions provider to companies of all sizes and domains. We provide ERP Solutions worldwide. We are engaged in providing Pre implementation</P>
+	                    <button class="button">Read more</button>
+	                </div>
+	
+	                <div class="col-md-3  col-xs-12 section4 bg-info">
+	
+	                    <img src="images\bigdata.png">
+	                    <h4>BIG - DATA Applications</h4>
+	                    <P>We are an ERP Software Solutions provider to companies of all sizes and domains. We provide ERP Solutions worldwide. We are engaged in providing Pre implementation</P>
+	                    <button class="button">Read more</button>
+	                </div>
+	
+	                <div class="col-md-3  col-xs-12 section5 bg-danger">
+	
+	                    <img src="images\digital.png">
+	                    <h4>Digital Dashboards & BI</h4>
+	                    <P>We are an ERP Software Solutions provider to companies of all sizes and domains. We provide ERP Solutions worldwide. We are engaged in providing Pre implementation</P>
+	                    <button class="button">Read More</button>
+	                </div>
+	            </div>
+	        </div>
+			
+			<div class="container">
+                <div class="section22">
+	                <h2 class="header" style="color:#006CA2;text-align:center;">Services</h2><br>
+	                <div class="row">
+	   
+	                    <div class="col-md-4 text-center">
+		                    <img src="images\Staff_Augmentation_Icon.png">
+		                    <h3>Staffing & Augmentation</h3>
+		                    <p class="text-justify" style="line-height:26px;size:14px;color:#ffffff;">Technology is pivotal to business. As businesses grow & segregate into multiple business units and geographies, the significance of data increases and the infrastructure on which it resides critical.</p>
+		                    <button class="button">Read More</button>
+		                </div>
+		
+		                <div class="col-md-4 text-center">
+		                    <img src="images\it-consulting-icon.png">
+		                    <h3>IT Consulting</h3>
+		                    <p class="text-justify" style="line-height:26px;size:14px;color:#ffffff;">The trend of global corporations continuing to face severe competitive pressure and outsourcing work to cost effective locations is accelerating day by day. We are ideally placed to provide support.</p>
+		                    <button class="button">Read More</button>
+		                </div>
+		
+		                <div class="col-md-4 text-center">
+		                    <img src="images\corporate-training-icon.png">
+		                    <h3>Corporate Training</h3>
+		                    <p class="text-justify" style="line-height:26px;size:14px;color:#ffffff;">Today, every organization is driven by IT and is heavily reliant on IT related functions. Hence the need for IT Services firm that can act as a one-stop shop for all one-stop shop for all.</p>
+		                    <button class="button">Read More</button>
+		                </div>
+	  
+	
+	                </div>
+	            </div>
+	        </div>
+	
+	
+	        <div class="container" style="border:1px solid red">
+	 
+	 
+			    <div class="row">
+			        <div class="section33" style="border:1px solid green">
+	                    <h2 style="text-align:center;color:#47B3ED;">Our Clients</h2>
+
+	                    <div id="div1">
+	                        <ul>
+	
+                                <li><img src="images\herbal.jpg"></li>
+	                            <li><img src="images\starte-harizon.jpg"></li>
+	                            <li><img src="images\fifth-third-ban.jpg"></li>
+	                            <li><img src="images\regal.jpg"></li>
+		                        <li><img src="images\mt-bank.jpg"></li>
+	                            <li><img src="images\stand.jpg"></li>
+		                        <li><img src="images\stand.jpg"></li>
+	                        
+							</ul>
+                        </div>
+	                </div>
+                </div>
+	        </div>
+	        <br>
+	
+	
+	        <div class="container-fluid">
+	            <div class="container">
+	                <div class="row">
+	                    <div class="section44">
+	
+	                        <div class="col-md-3">
+	                            <h4>Quick Links</h4>
+	                            <ul>
+	                                <li><a href="#">Home</a></li>
+	                                <li><a href="#">About Us</a></li>
+	                                <li><a href="#">Solutions</a></li>
+	                                <li><a href="#">Services</a></li>
+	                                <li><a href="#">Carees</a></li>
+	                                <li><a href="#">Contact Us</a></li>
+	                            </ul>
+	                        </div>
+	
+	                        <div class="col-md-3">
+	                            <h4>Solutions</h4>
+	                            <ul>
+	                                <li><a href="#">ERP Solutions</a></li>
+	                                <li><a href="#">Enterprise Applications</a></li>
+	                                <li><a href="#">Big-Data Applications</a></li>
+	                                <li><a href="#">Digital Dashboards</a></li>
+	                                <li><a href="#">Tableau</a></li>
+	
+	                            </ul>
+	                        </div>
+	
+	
+	                        <div class="col-md-3">
+	                            <h4>Services</h4>
+	                            <ul>
+	                                <li><a href="#">IT Consulting</a></li>
+	                                <li><a href="#">Staffing</a></li>
+	                                <li><a href="#">Corporate Training</a></li>
+	
+	                            </ul>
+	                        </div>
+	
+	
+	                        <div class="col-md-3">
+	                            <h4>Contact Us</h4>
+	                            <ul>
+	                                <li><a href="#">Nano Cube Technologies</a></li>
+	                                <li><a href="#">140 kings Daughters</a></li>
+	                                <li><a href="#">Dr, Frankfort,ky 40601</a></li>
+	                                <li><a href="#">Fax:270-721-0074</a></li>
+	                                <li><a href="#">Email:info@nanocubetech.com</a></li>
+	                            </ul>
+	                        </div>
+	                    </div>
+	                </div>
+	            </div>
+            </div>
+	 
+	 
+	        <div class="container-fluid">
+	            <!--  <div class="container"> -->
+	                    <div class="row">
+	  
+	                        <div class="section55">
+	  
+	                            <div class="col-md-6">
+			                        <p style="margin-left:120px;">&copy;2016 www.nanocubetech.com | All Rights Reserved</p>
+			                    </div> 
+			
+			                    <div class="col-md-3">
+			
+			                    </div> 
+			
+			                    <div class="col-md-3">
+			                        <p>&copy;2016 www.nanocubetech.com </p>
+			                    </div> 
+	                        </div>
+	   
+	  
+	                    </div> 
+	            <!--  </div> -->
+	        </div>
+
+        <!-- </header> -->
+
+    </body>
+</html>
