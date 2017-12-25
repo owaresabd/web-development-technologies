@@ -1,0 +1,80 @@
+
+		*{
+		margin:0px;
+		padding:0px;
+		
+		}
+		.container {width:1000px; margin:0 auto}
+	header{
+ width:100%;
+ height:100px;
+ background-color:#fff;
+ position:sticky;
+ top:0px;
+ 
+ 
+		}
+	.container {width:1000px; margin:0px auto}
+	
+	.logo {
+		width:35%;
+		padding-left:40px;
+	float:left}
+	
+	
+	nav ul{padding-top:30px}
+	nav ul li{
+	display:inline;
+	padding:10px;
+	font-size:14px;
+	color:#146390;
+	font-family:arial;
+	float:left;
+}
+.slider {margin:0px auto}
+.slider {width:90%;
+height:550px}
+.slider img{opacity:0.8}
+	.infocus {height:500px;
+	width:100%;
+	background-color:#2E94CE}
+	
+
+	.su h1{text-align:center;
+	font-size:40px; padding:20px 0px;
+	color:#fff}
+	.sub {margin:5px}
+	
+	.sub article{width:25%; padding:10px; box-sizing:border-box; text-align:center; float:left}
+	.sub article h2{padding:15px 0px; font-size:20px; color:#D8E8F1}
+	.sub article p{font-size:14px; color:#D8E8F1}
+	.infocus2 {background-color:#46E24D; width:100%; height:700px}
+	.infocus2 h1{text-align:center;
+	font-size:40px; padding:10px 0px;
+	color:#fff}
+	
+	
+	.sub2 article{width:23%; padding:5px; box-sizing:border-box; text-align:center; margin:7px; background-color:#fff; float:left}
+	.sub2 article h2{padding-bottom:55px; font-size:20px; color:#161B7A}
+	.sub2 article p{font-size:15px; color:#161B7A}
+	.sub2 .fa:hover {
+		transform:rotateY(100deg)
+	}
+	.sub2 i{color:#17B556; font-size:80px; }
+	.sub2 h3{color:#fff; font-size:18px;  padding:5px 0px; background-color:#2E3A62;}
+	.one {width:100%;}
+	.one article{width:32% ;text-align:center;  margin:3px; float:left ;color:#fff}
+	.one article i{margin-top:20px; font-size:80px}
+	.one .fa:hover {transform:rotateY(100deg)}
+	.sub3 {margin-left:10%}
+	.infocus3 {height:250px; background-color:#003F85; text-align:center}
+	.infocus3 p{font-size:18px; color:#D8E8F1; padding:10px}
+	.infocus3 h1{color:#D8E8F1}
+	
+	
+	
+
+	
+	
+	
+	
